@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#131502"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:textColor="#f8f9f0"
+        android:background="#e6370f"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:id="@+id/btnmove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="NETFLIX" />
+
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="122dp"
+        android:layout_toStartOf="@+id/btnpesa"
+        android:text="Call" />
+
+    <Button
+        android:id="@+id/btnsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btncall"
+        android:layout_centerVertical="true"
+        android:text="SMS" />
+
+    <Button
+        android:id="@+id/btnmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btncall"
+        android:layout_marginBottom="123dp"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/btncamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btncall"
+        android:layout_marginEnd="75dp"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/btnshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btncamera"
+        android:layout_centerVertical="true"
+        android:text="Share" />
+
+    <Button
+        android:id="@+id/btndial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btncamera"
+        android:layout_marginBottom="114dp"
+        android:text="Dial" />
+
+    <Button
+        android:id="@+id/btnpesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:layout_toStartOf="@+id/btncamera"
+        android:text="Mpesa" />
+</RelativeLayout>
